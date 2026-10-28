@@ -8,6 +8,18 @@
   --border: #e5e1da;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181d;
+    --card: #1f232a;
+    --text: #e6e8eb;
+    --muted: #9aa1ab;
+    --accent: #ff7a3d;
+    --accent-text: #16181d;
+    --border: #2f343c;
+  }
+}
+
 * {
   box-sizing: border-box;
 }

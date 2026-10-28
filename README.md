@@ -2,7 +2,7 @@
 
 A small Pomodoro timer that runs in the browser. Work for 25 minutes, take a break, repeat.
 
-No install and no build step: it's one HTML page, one stylesheet and one script.
+No install and no build step: it's one HTML page, one stylesheet and one script. It follows your system's light or dark theme.
 
 ## Use it
 
