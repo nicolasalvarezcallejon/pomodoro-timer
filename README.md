@@ -14,6 +14,8 @@ python3 -m http.server
 
 Press **Start** to begin, press it again to pause, and **Reset** to go back to 25:00.
 
+While the timer runs, the time left also shows in the browser tab, so you can check it from another tab.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

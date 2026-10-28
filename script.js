@@ -12,6 +12,9 @@ function render() {
   const minutes = String(Math.floor(remaining / 60)).padStart(2, '0');
   const seconds = String(remaining % 60).padStart(2, '0');
   timeEl.textContent = `${minutes}:${seconds}`;
+  document.title = remaining === WORK_MINUTES * 60
+    ? 'Pomodoro Timer'
+    : `${minutes}:${seconds} · Pomodoro Timer`;
 }
 
 // Browsers slow down timers in background tabs, so counting ticks drifts.
